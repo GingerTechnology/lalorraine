@@ -1,26 +1,50 @@
 <template>
   <div>
     <section>
-      <v-parallax src="assets/images/goorgandeens.png" height="600">
-        <v-layout
-          column
-          align-center
-          justify-center
-          class="white--text"
-        >
-          <img src="assets/vuetify.png" alt="Vuetify.js" height="200">
-          <h1 class="white--text mb-2 display-1 text-xs-center">Parallax Template</h1>
-          <div class="subheading mb-3 text-xs-center">Powered by Vuetify</div>
-          <v-btn
-            class="blue lighten-2 mt-5"
-            dark
-            large
-            href="/pre-made-themes"
+      <v-carousel style="height:400px;">
+        <v-carousel-item src="https://vuetifyjs.com/static/doc-images/carousel/planet.jpg" key="1">
+          <v-layout
+            column
+            align-center
+            justify-center
+            class="white--text"
           >
-            Get Started
-          </v-btn>
-        </v-layout>
-      </v-parallax>
+            <img src="assets/vuetify.png" alt="Vuetify.js" height="200">
+            <h1 class="white--text mb-2 display-1 text-xs-center">Parallax Template</h1>
+            <div class="subheading mb-3 text-xs-center">Powered by Vuetify</div>
+            <v-btn
+              class="blue lighten-2 mt-5"
+              dark
+              large
+              href="/pre-made-themes"
+            >
+              Get Started
+            </v-btn>
+          </v-layout>
+        </v-carousel-item>
+        <v-carousel-item src="https://vuetifyjs.com/static/doc-images/carousel/bird.jpg" key="2">
+          <v-layout
+            column
+            align-center
+            justify-center
+            class="white--text"
+          >
+            <img src="assets/vuetify.png" alt="Vuetify.js" height="200">
+            <h1 class="white--text mb-2 display-1 text-xs-center">Parallax Template</h1>
+            <div class="subheading mb-3 text-xs-center">Powered by Vuetify</div>
+            <v-btn
+              class="blue lighten-2 mt-5"
+              dark
+              large
+              href="/pre-made-themes"
+            >
+              Get Started
+            </v-btn>
+          </v-layout>
+        </v-carousel-item>
+      </v-carousel>
+
+
     </section>
 
     <section>
