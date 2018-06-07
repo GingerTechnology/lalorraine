@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <v-parallax src="assets/images/goorgandeens.png" height="600">
+      <v-parallax src="../assets/images/goorgandeens.png" height="600">
         <v-layout
           column
           align-center
